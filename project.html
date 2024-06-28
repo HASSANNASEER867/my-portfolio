@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+section {
+    margin-bottom: 40px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin-left: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.project-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    padding: 20px;
+}
+
+.project-description h2 {
+    margin: 0 0 10px;
+}
+
+.project-description p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.view-project-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.view-project-button:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">MUHAMMAD HASSAN NASEER</div>
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Project</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z3ltfGVufDB8fDB8fHww" alt="Project Image" class="project-image">
+        <div class="project-description">
+            <h2>A LANDING PAGE RELATED TO FITNESS</h2>
+            <p>This is a brief description of the project. It highlights the main features and objectives of the project.</p>
+            <a href="https://hassannaseer867.github.io/MHNF/" class="view-project-button">View Project</a>
+        </div>
+    </div>
+    <div class="project-box">
+        <img src="https://media.istockphoto.com/id/1372764637/photo/coding-language-development-icon-on-yellow-background-software-development-concept.webp?b=1&s=170667a&w=0&k=20&c=rLpciCTbJBuOa866w4RSUNpMeFDwKkO-HffenRrUOfo=" alt="Project Image" class="project-image">
+        <div class="project-description">
+            <h2>THSES ARE THE SOME OF PROJECTS RELATED TO JAVA SCRIPT.</h2>
+            <p>This is a brief description of the project. It highlights the main features and objectives of the project.</p>
+            <a href="https://hassannaseer867.github.io/JAVA-SCRIPT-ASSIGNMENTS-PORTAL/" class="view-project-button">View Project</a>
+        </div>
+    </div>
+  
+    <footer>
+        <div class="container">
+            <p>MUHAMMAD HASSAN NASEER FARIDI.</p>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/muhammad-hassan-naseer-424093313" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/HASSANNASEER867" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.instagram.com/muhammad_hasaan_naseer_faridi?igsh=MTFiYWUyOTBxaXhoYQ==" target="_blank">Instagram</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
